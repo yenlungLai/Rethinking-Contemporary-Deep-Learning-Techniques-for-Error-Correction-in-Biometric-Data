@@ -1,0 +1,16 @@
+# Rethinking Contemporary Deep Learning Techniques for Error Correction in Biometric Data
+
+ABSTRACT:
+In the realm of cryptography, the implementation of error correction in biometric data offers benefits,
+including secure data storage and key derivation. Deep learning-based decoders have emerged as a
+catalyst for improved error correction when decoding noisy biometric data. Although these decoders
+exhibit competence in approximating precise solutions, we expose the potential inadequacy of their
+security assurances through a minimum entropy analysis. This limitation curtails their applicability
+in secure biometric contexts, as the inherent complexities of their non-linear neural network architectures
+pose challenges in comprehending the solution distribution. To address this limitation, we
+introduce U-Sketch, a universal approach for error correction in biometrics, which converts arbitrary
+input random biometric source distributions into independent and identically distributed (i.i.d.) data
+while maintaining the pairwise distance of the data post-transformation. This method ensures interpretability
+within the decoder, facilitating transparent entropy analysis and a substantiated security
+claim. Moreover, U-Sketch employs Maximum Likelihood Decoding (MLD), which provides optimal
+error tolerance and security guarantee.
